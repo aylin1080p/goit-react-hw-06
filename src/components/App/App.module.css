@@ -1,0 +1,46 @@
+.container {
+  width: min(100%, 760px);
+  margin: 0 auto;
+  padding: 40px 16px;
+}
+
+.panel {
+  padding: 28px;
+  border: 1px solid #d6e0e8;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 16px 34px rgb(42 54 71 / 12%);
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #27706a;
+}
+
+.title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #16202d;
+}
+
+@media (max-width: 520px) {
+  .container {
+    padding: 24px 12px;
+  }
+
+  .panel {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
